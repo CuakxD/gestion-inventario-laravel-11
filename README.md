@@ -1,3 +1,41 @@
+## Como ejecutar el proyecto
+Requerimientos:
+- php 8.2 ya que se utilizó laravel 11 en este proyecto.
+- Composer
+
+### Comandos a utilizar:
+
+Clonar la carpeta:
+- git clone https://github.com/CuakxD/gestion-inventario-laravel-11.git
+- cd gestion-inventario-laravel-11/
+- npm install
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate
+- npm run dev
+- php artisan serve
+
+## Pruebas
+- ingresar al sistema http://127.0.0.1:8000/
+- hacer clic en el botón "Register"
+- crear una cuenta con las siguientes credenciales:
+- name: prueba
+- mail: prueba@example.com
+- password: 123456789
+- Confirm Password: 123456789
+- Dentro del sistema, hacer clic en el botón "crear nuevo articulo" y llenar los siguientes datos
+- Nombre: Control
+- Descripción: control remoto
+- Cantidad: 20
+- Precio: 300.5
+- Hacer clic en el botón, ver
+- Hacer clic en el botón articulos
+- Hacer clic en el botón editar y cambiar algun dato, posterior mente hacer clic en actualizar articulo.
+- hacer clic en eliminar y confirmar la eliminación.
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
