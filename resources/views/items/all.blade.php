@@ -2,7 +2,7 @@
 @section('content')
     <div class="container text-center">
         <h1 style="font-size: 25px">Gestion de inventario</h1>
-        <p>Articulos agregador por mi</p>
+        <p>Todos los artículos</p>
         <div class="row">
             <div class="col-md-12">
                 <div class="text-right">
